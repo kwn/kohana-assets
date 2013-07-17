@@ -1,7 +1,16 @@
 # JS and CSS assets library for Kohana
 
 - Compile and serve js, css, and less files
-- For Kohana 3.2.x
+- For Kohana 3.3.x
+
+## Install vendors with composer
+
+```
+"require" : {
+	"leafo/lessphp" : "dev-master",
+	"linkorb/jsmin-php" : "dev-master"
+}
+```
 
 ## Create an assets object
 
